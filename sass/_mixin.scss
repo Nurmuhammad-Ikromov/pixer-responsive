@@ -4,3 +4,13 @@
   align-items: center;
   gap: $gap;
 }
+
+@mixin btn {
+  padding: 8px 16px;
+  display: inline-block;
+  background-color: rgba(0, 186, 252, 1);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}

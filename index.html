@@ -7,6 +7,229 @@
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <h1>Hello, SASS</h1>
+    <header class="site-header">
+      <div class="container">
+        <div class="site-header__inner">
+          <a href="./index.html" class="site-header__logo-link">
+            <img
+              class="site-header__logo"
+              width="59"
+              height="20"
+              src="./images/logo.svg"
+              alt="this is site logo"
+            />
+          </a>
+
+          <nav class="site-header__nav navbar ">
+            <ol class="navbar__list">
+              <li class="navbar__item">
+                <a href="#" class="navbar__link">Bosh sahifa</a>
+              </li>
+              <li class="navbar__item">
+                <a href="#" class="navbar__link">Xizmatlar</a>
+              </li>
+              <li class="navbar__item">
+                <a href="#" class="navbar__link">Portfolio</a>
+              </li>
+              <li class="navbar__item">
+                <a href="#" class="navbar__link">Jamoa</a>
+              </li>
+              <li class="navbar__item">
+                <a href="#" class="navbar__link">Blog</a>
+              </li>
+              <li class="navbar__item">
+                <a href="#" class="navbar__link">Kontaktlar</a>
+              </li>
+            </ol>
+
+            <a href="#" class="site-header__btn button">+998 90 921 37 11</a>
+          </nav>
+
+          <button class="burger-btn">
+            <img width="24" src="./images/burger-btn.png" alt="burger btn" />
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="work">
+        <div class="container work-container">
+          <div class="work-inner">
+            <h2 class="work-title">Biz qanday ishlaymiz?</h2>
+
+            <div class="work-text-box">
+              <p class="work-text">
+                Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu.
+                Nam facilisis lacinia ex, eget sollicitudin massa pellentesque
+                in. Vivamus mattis eros at sem pulvinar
+              </p>
+            </div>
+
+            <ol class="work-list">
+              <li class="work-item">
+                <img
+                  src="./images/img-6.png"
+                  width="300"
+                  height="278"
+                  alt="the man was staring at the notebook"
+                  class="work-img"
+                />
+
+                <div class="work-item-info">
+                  <h3 class="work-item-title">Talablarni aniqlab chiqamiz</h3>
+
+                  <p class="work-item-text">
+                    Nullam laoreet nec turpis et ultrices. Duis sit amet quam
+                    arcu. Nam facilisis
+                  </p>
+                </div>
+              </li>
+
+              <li class="work-item">
+                <img
+                  src="./images/img-7.png"
+                  width="300"
+                  height="225"
+                  alt="The woman is staring at the solutions"
+                  class="work-img"
+                />
+
+                <div class="work-item-info">
+                  <h3 class="work-item-title">
+                    Bir necha yechimlarni taklif qilamiz
+                  </h3>
+
+                  <p class="work-item-text">
+                    Nullam laoreet nec turpis et ultrices. Duis sit amet quam
+                    arcu. Nam facilisis
+                  </p>
+                </div>
+              </li>
+
+              <li class="work-item">
+                <img
+                  src="./images/img-8.png"
+                  width="300"
+                  height="259"
+                  alt="A man is working on a computer in front of his watch"
+                  class="work-img"
+                />
+
+                <div class="work-item-info">
+                  <h3 class="work-item-title">Loyiha uchun vaqt belgilaymiz</h3>
+
+                  <p class="work-item-text">
+                    Nullam laoreet nec turpis et ultrices. Duis sit amet quam
+                    arcu. Nam facilisis
+                  </p>
+                </div>
+              </li>
+
+              <li class="work-item">
+                <img
+                  src="./images/img-9.png"
+                  width="300"
+                  height="171"
+                  alt="A girl and a boy are celebrating a trophy"
+                  class="work-img"
+                />
+
+                <div class="work-item-info">
+                  <h3 class="work-item-title">
+                    A’lo sifat bilan bajarib topshiramiz
+                  </h3>
+
+                  <p class="work-item-text">
+                    Nullam laoreet nec turpis et ultrices. Duis sit amet quam
+                    arcu. Nam facilisis
+                  </p>
+                </div>
+              </li>
+
+              <li class="work-item work-active-item">
+                <img
+                  src="./images/img-10.png"
+                  width="300"
+                  height="232"
+                  alt="One person is making an online offer"
+                  class="work-img"
+                />
+
+                <div class="work-item-info">
+                  <h3 class="work-item-title">Qo’llab-quvvatlab boramiz</h3>
+
+                  <p class="work-item-text">
+                    Nullam laoreet nec turpis et ultrices. Duis sit amet quam
+                    arcu. Nam facilisis
+                  </p>
+                </div>
+              </li>
+            </ol>
+
+            <button class="button work-button">Buyurtma berish</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- section DATA started  -->
+      <section class="data" id="order">
+        <div class="container">
+          <div class="data-inner">
+            <h2 class="data-title">Buyurtma berish</h2>
+
+            <div class="data-text-box">
+              <p class="data-text">
+                Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu.
+                Nam facilisis lacinia ex, eget sollicitudin massa pellentesque
+                in. Vivamus mattis eros at sem pulvinar
+              </p>
+            </div>
+
+            <div class="input-box">
+              <form action="https://echo.htmlacademy.ru" method="post">
+                <input
+                  class="site-input"
+                  type="text"
+                  name="Ismingiz"
+                  aria-label="Your_name"
+                  required
+                  placeholder="Ismingiz"
+                />
+
+                <input
+                  class="site-input"
+                  type="tel"
+                  name="Telefon_raqamingiz"
+                  required
+                  aria-label="Your_phone_number"
+                  placeholder="Telefon raqamingiz"
+                />
+
+                <select class="site-input select" name="Tanlangan_xizmat_turi">
+                  <option selected disabled value="Xizmat turi">
+                    Xizmat turi
+                  </option>
+
+                  <option value="Vebsayt tuzish">Vebsayt tuzish</option>
+
+                  <option value="Telegram bot">Telegram bot</option>
+
+                  <option value="SMM">SMM</option>
+
+                  <option value="Grafik dizayn">Grafik dizayn</option>
+
+                  <option value="CRM tizimlar">CRM tizimlar</option>
+                </select>
+
+                <button type="submit" class="button">Buyurtma berish</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- section DATA ended  -->
+    </main>
+
+    <script src="./js/main.js"></script>
   </body>
 </html>
